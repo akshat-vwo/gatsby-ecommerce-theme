@@ -27,7 +27,7 @@ const Layout = ({ props, children, disablePaddingBottom = false }) => {
         />
         <link rel="preconnect" href="https://dev.visualwebsiteoptimizer.com" />
         <script type='text/javascript' id='vwoCode'>
-          {window._vwo_code || (function () {
+          {window?._vwo_code || (function () {
             var account_id = 819242,
               version = 2.0,
               settings_tolerance = 2000,
