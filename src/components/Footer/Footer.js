@@ -180,6 +180,13 @@ const Footer = (prop) => {
           </div>
         </Container>
       </div>
+      <iframe
+  id="inlineFrameExample"
+  title="Inline Frame Example"
+  width="300"
+  height="200"
+  src="https://akshatagrawal.wingified.com/">
+</iframe>
     </div>
   );
 };
