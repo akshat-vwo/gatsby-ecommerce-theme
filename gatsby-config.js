@@ -6,6 +6,17 @@ module.exports = {
   flags: {
     DEV_SSR: true
   },
+  headers: [
+    {
+      source: `https://akshatagrawal.wingified.com`,
+      headers: [
+        {
+          key: `x-frame-options`,
+          value: `SAMEORIGIN`,
+        }
+      ]
+    }
+  ],
   plugins: [
     {
       resolve: `gatsby-plugin-manifest`,
