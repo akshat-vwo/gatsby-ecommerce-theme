@@ -43,16 +43,18 @@ const Layout = ({ props, children, disablePaddingBottom = false }) => {
       </Helmet>
   
 
+
       <Header />
-      <main
-        className={`${styles.main} ${disablePaddingBottom === true ? styles.disablePaddingBottom : ''
-          }`}
-      >
-            <noscript>
+      <noscript>
         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WMFD6FWH"
           height="0" width="0" styles="display:none;visibility:hidden">
         </iframe>
       </noscript>
+
+      <main
+        className={`${styles.main} ${disablePaddingBottom === true ? styles.disablePaddingBottom : ''
+          }`}
+      >
         {children}
       </main>
       <Footer />
