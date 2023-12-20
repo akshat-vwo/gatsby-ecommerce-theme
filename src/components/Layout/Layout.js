@@ -51,17 +51,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               // : null
           `}</script>
       </Helmet>
+        <noscript>
+          <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WMFD6FWH"
+          height="0" width="0" styles="display:none;visibility:hidden">
+            </iframe>
+            </noscript>
 
       <Header />
       <main
         className={`${styles.main} ${disablePaddingBottom === true ? styles.disablePaddingBottom : ''
           }`}
       >
-        <noscript>
-          <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WMFD6FWH"
-          height="0" width="0" style="display:none;visibility:hidden">
-            </iframe>
-            </noscript>
         {children}
       </main>
       <Footer />
