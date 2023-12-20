@@ -30,7 +30,7 @@ const Layout = ({ props, children, disablePaddingBottom = false }) => {
           {`
             // typeof window !== "undefined" ?
               window._vwo_code || (function () {
-                var account_id = 819242,
+                var account_id = 820948,
                   version = 2.0,
                   settings_tolerance = 2000,
                   hide_element = 'body',
