@@ -13,7 +13,6 @@ import './Globals.css';
 const Layout = ({ props, children, disablePaddingBottom = false }) => {
   return (
     <>
-      <Head />
       <Helmet>
         {/* Add any sitewide scripts here */}
         <link
